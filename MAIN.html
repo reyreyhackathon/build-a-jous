@@ -1,0 +1,131 @@
+<html>
+
+<head>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<style>
+
+
+.container {
+
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.TITLE {
+
+    padding-bottom: 30px;
+    font-size: 75px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.caption {
+
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+body    { 
+
+    margin: 0;
+    padding-left: 20px;
+    height: 100vh;
+    display: flex;
+    font-family: "Open Sans";
+}
+
+.box{
+    cursor: pointer;
+    
+    animation: bounce 2s ease infinite;
+    
+}
+.BUBBLE {
+
+    position: absolute; right: -250px; top: -200px;
+    width: 400px;
+    height: 300px;
+    z-index: 5;
+}
+
+.textcaption {
+
+    position: absolute; right: -110px; top: -100px;
+    font-family: 'Courier New', Courier, monospace;
+    z-index: 6;
+    font-size: 30px;
+}
+
+@keyframes bounce{
+    70% { transform:translateY(0%); }
+    80% { transform:translateY(-15%); }
+    90% { transform:translateY(0%); }
+    95% { transform:translateY(-7%); }
+    97% { transform:translateY(0%); }
+    99% { transform:translateY(-3%); }
+    100% { transform:translateY(0); }
+}
+@keyframes roll-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%) rotate(-120deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px) rotate(0deg);
+  }
+}
+
+
+.img-1 {
+    max-width: 50%;
+    max-height: 50%;
+}
+</style>
+
+<body>
+    <div class="container">
+
+
+        <h1 class = "TITLE"> BUILD-A-JOUS </h1>
+
+        
+
+        <div class ="box">
+
+            <a href="JOUS - Copy.html"><img alt="IMG" src="dank.jfif"width="825" height="187.5"></a>
+            <div classs = "speechbubble"> 
+
+                <img class ="BUBBLE" src="speech bubble.png">
+                <p class = "textcaption"><b> tap us! </b> </p> 
+
+            </div>
+            
+
+        </div>
+
+        <!-- <a class="caption" href="JOUS - Copy.html"> <div class="middle3"> <br> START BUILDING! </b></div></a> -->
+
+        
+        </div>
+    </div> 
+
+
+<!-- <section> -->
+<!-- <a class="titles" href="JOUS - Copy.html"> <div class="middle3"> <br><br><br><br> Start Building ! <br></b></div></a> -->
+<!-- </section> -->
+
+
+
+</body>
+
+</html>
